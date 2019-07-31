@@ -1,0 +1,8 @@
+{
+  "request_rate": 5000,
+  "background_mode": 20000,
+  "streaming_mode": 200,
+  "low_bitrate_level": 1000,
+  "high_bitrate_level": 10000,
+  "url": "your_stat_url"
+}
