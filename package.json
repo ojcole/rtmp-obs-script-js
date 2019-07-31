@@ -1,0 +1,28 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "socket.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node socket.js ./tests/good-connect.json",
+    "start": "node socket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hive7@github.com/Hive7/rtmp-obs-script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hive7/rtmp-obs-script/issues"
+  },
+  "homepage": "https://github.com/Hive7/rtmp-obs-script#readme",
+  "dependencies": {
+    "obs-websocket-js": "^3.1.0",
+    "xml2js": "^0.4.19"
+  }
+}
